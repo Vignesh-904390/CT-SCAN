@@ -1,0 +1,409 @@
+{
+  "acute pulmonary embolism": {
+    "Description": "Sudden blockage of one or more pulmonary arteries by a thrombus, usually from deep vein thrombosis.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "Sudden dyspnea, pleuritic chest pain, cough, hemoptysis, tachycardia, syncope in massive PE",
+    "Diagnosis": "CT pulmonary angiography (CTPA), D-dimer, Wells criteria, echocardiography",
+    "Medicines": "Anticoagulants (DOACs: apixaban, rivaroxaban; LMWH, warfarin), systemic thrombolytics (alteplase), catheter-directed thrombolysis",
+    "Prevention": "Prophylactic anticoagulation in high-risk patients, early mobilization, compression devices",
+    "Care": "Monitoring for bleeding, oxygen therapy, assess for right ventricular strain, consider inferior vena cava filter in contraindications to anticoagulation"
+  },
+   "central pulmonary embolism": {
+    "Description": "Large thrombus located in main pulmonary arteries or lobar branches.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "Severe dyspnea, hypotension, syncope, right heart failure signs",
+    "Diagnosis": "CTPA, echocardiogram (right ventricular dysfunction), elevated troponin/BNP",
+    "Medicines": "Systemic thrombolytics (alteplase), anticoagulation, vasopressors if shock",
+    "Prevention": "As per acute PE prophylaxis",
+    "Care": "ICU monitoring, consider catheter-based thrombectomy or surgical embolectomy in high-risk cases"
+  },
+  "chronic pulmonary embolism": {
+    "Description": "Organized thrombi in pulmonary arteries persisting >3 months, leading to vascular remodeling.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "Exertional dyspnea, fatigue, right heart failure signs over time",
+    "Diagnosis": "CTPA (webs, bands, organized thrombus), V/Q scan (mismatched defects), right heart catheterization",
+    "Medicines": "Lifelong anticoagulation (warfarin preferred), diuretics for right heart failure",
+    "Prevention": "Adequate treatment of acute PE to prevent chronicity",
+    "Care": "Evaluate for CTEPH, consider pulmonary thromboendarterectomy if operable, balloon pulmonary angioplasty"
+  },
+   "chronic thromboembolic pulmonary hypertension (cteph)": {
+    "Description": "Pulmonary hypertension due to unresolved chronic thromboembolic material causing vascular obstruction/remodeling.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "Progressive dyspnea, fatigue, syncope, right heart failure signs",
+    "Diagnosis": "V/Q scan (gold standard for screening), right heart catheterization, CT pulmonary angiography, pulmonary angiogram",
+    "Medicines": "Riociguat (soluble guanylate cyclase stimulator), anticoagulation, diuretics",
+    "Prevention": "Adequate anticoagulation for acute PE, early detection",
+    "Care": "Evaluate for pulmonary thromboendarterectomy (curative), balloon pulmonary angioplasty for inoperable cases, lung transplantation"
+  },
+   "in situ pulmonary artery thrombosis": {
+    "Description": "Thrombus formation within pulmonary arteries without embolism, often in pulmonary hypertension, vasculitis, or local inflammation.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "Dyspnea, hemoptysis, signs of pulmonary hypertension",
+    "Diagnosis": "CTPA (thrombus adherent to vessel wall), D-dimer may be elevated",
+    "Medicines": "Anticoagulation, treat underlying condition",
+    "Prevention": "Manage underlying pulmonary vascular disease",
+    "Care": "Similar to chronic PE/CTEPH management, consider immunosuppressants if vasculitis"
+  },
+   "normal (pulmonary arteries – pulmonary embolism)": {
+    "Description": "No filling defects in pulmonary arteries, ruling out acute or chronic PE.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "None",
+    "Diagnosis": "Normal CT pulmonary angiography",
+    "Medicines": "None",
+    "Prevention": "Not applicable",
+    "Care": "Consider alternative causes of symptoms (e.g., COPD, pneumonia, heart failure)"
+  },
+    "pulmonary infarction": {
+    "Description": "Necrosis of lung tissue due to occlusion of pulmonary artery branches, often with pleural-based wedge-shaped opacity.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "Pleuritic chest pain, hemoptysis, fever, cough",
+    "Diagnosis": "CTPA (wedge-shaped peripheral consolidation with central lucency - 'feeding vessel sign')",
+    "Medicines": "Anticoagulation, analgesia, treat underlying infection if present",
+    "Prevention": "Adequate anticoagulation for PE",
+    "Care": "Monitor for resolution, may leave scar (linear atelectasis)"
+  },
+  "recurrent pulmonary embolism": {
+    "Description": "New pulmonary embolism after a course of anticoagulation or within 3 months of stopping therapy.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "Similar to acute PE",
+    "Diagnosis": "CTPA showing new filling defect, increased D-dimer after stopping anticoagulation",
+    "Medicines": "Long-term/indefinite anticoagulation (DOACs or warfarin)",
+    "Prevention": "Extended anticoagulation after first unprovoked PE, evaluate for hypercoagulable state",
+    "Care": "Assess for non-adherence, malignancy, antiphospholipid syndrome, consider IVC filter if contraindication to anticoagulation"
+  },
+  "saddle pulmonary embolism": {
+    "Description": "Large thrombus straddling the bifurcation of main pulmonary artery, life-threatening emergency.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "Syncope, severe dyspnea, hypotension, cardiac arrest",
+    "Diagnosis": "CTPA, echocardiogram (right ventricular dysfunction)",
+    "Medicines": "Systemic thrombolysis (alteplase), anticoagulation, vasopressors",
+    "Prevention": "As per acute PE",
+    "Care": "ICU, consider catheter-based embolectomy or surgical embolectomy if thrombolysis contraindicated/failed"
+  },
+  "segmental pulmonary embolism": {
+    "Description": "Thrombus occluding segmental pulmonary arteries.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "Dyspnea, pleuritic pain, tachycardia",
+    "Diagnosis": "CTPA, V/Q scan",
+    "Medicines": "Anticoagulation (DOACs first-line), consider thrombolysis if hemodynamic compromise",
+    "Prevention": "As per acute PE",
+    "Care": "Hospitalization for initiation of anticoagulation, assess for right ventricular strain"
+  },
+   "subsegmental pulmonary embolism": {
+    "Description": "Blood clot in the smaller, more distal branches of the pulmonary arteries.",
+    "Type": "Pulmonary arteries (Pulmonary embolism)",
+    "Symptoms": "Often asymptomatic or mild symptoms like shortness of breath, pleuritic chest pain, cough, sometimes hemoptysis",
+    "Diagnosis": "CT pulmonary angiography (CTPA), ventilation-perfusion scan, D-dimer",
+    "Medicines": "Anticoagulants (DOACs, LMWH, warfarin), thrombolytics in severe cases",
+    "Prevention": "Early ambulation post-surgery, compression stockings, anticoagulation in high-risk patients",
+    "Care": "Monitoring for bleeding on anticoagulants, follow-up imaging, assess for underlying hypercoagulable state"
+  },
+    "brain edema": {
+    "Description": "Accumulation of fluid within brain tissue leading to increased intracranial pressure.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Headache, nausea, vomiting, altered consciousness, seizures, focal neurological deficits",
+    "Diagnosis": "CT/MRI brain, intracranial pressure monitoring",
+    "Medicines": "Mannitol, hypertonic saline, corticosteroids (vasogenic edema), furosemide",
+    "Prevention": "Manage underlying causes (stroke, trauma, infection), avoid hyponatremia",
+    "Care": "Elevate head of bed, maintain euvolemia, neurocritical care monitoring, consider decompressive craniectomy"
+  },
+   "cerebral contusion": {
+    "Description": "Bruising of brain tissue from traumatic acceleration-deceleration or direct impact.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Altered mental status, focal neurological deficits, headache",
+    "Diagnosis": "CT brain (hyperdense areas without frank hemorrhage), MRI for detail",
+    "Medicines": "Analgesics, antiepileptics if seizures present",
+    "Prevention": "Head injury prevention (helmets, seatbelts)",
+    "Care": "Serial imaging to monitor for expansion/edema, neurocritical care, rehabilitation"
+  },
+   "cerebritis": {
+    "Description": "Early stage of brain infection/inflammation before abscess formation.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Fever, headache, focal neurological deficits, seizures, altered mental status",
+    "Diagnosis": "MRI brain (T2/FLAIR hyperintensity with patchy enhancement), CSF analysis, blood cultures",
+    "Medicines": "Broad-spectrum antibiotics (vancomycin + third-gen cephalosporin ± metronidazole), antivirals if viral",
+    "Prevention": "Prompt treatment of infections (sinus, dental, otogenic)",
+    "Care": "ICU monitoring, seizure prophylaxis, serial imaging to monitor for abscess formation"
+  },
+   "Diffuse axonal injury (dai)": {
+    "Description": "Widespread traumatic shearing of white matter axons due to rotational acceleration.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Immediate loss of consciousness, persistent vegetative state, cognitive deficits",
+    "Diagnosis": "MRI brain (gradient-echo/SWI showing microhemorrhages, DTI for axon integrity)",
+    "Medicines": "Neuroprotective measures, manage ICP, amantadine for arousal",
+    "Prevention": "Trauma prevention, improved automotive safety",
+    "Care": "Multidisciplinary neurorehabilitation, seizure prophylaxis, long-term cognitive therapy"
+  },
+  "Early ischemic stroke": {
+    "Description": "Acute cerebral infarction due to arterial occlusion, within time window for reperfusion therapy.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "FAST symptoms (face droop, arm weakness, speech difficulty), vision loss, ataxia",
+    "Diagnosis": "CT brain (rule out hemorrhage), CT perfusion, MRI DWI",
+    "Medicines": "Alteplase (IV tPA) within 4.5 hours, tenecteplase, antiplatelets (aspirin/clopidogrel)",
+    "Prevention": "Secondary prevention with antiplatelets, statins, risk factor control",
+    "Care": "Stroke unit care, mechanical thrombectomy within 24 hours if large vessel occlusion, early rehabilitation"
+  },
+   "Encephalitis": {
+    "Description": "Inflammation of brain parenchyma, usually viral (HSV, arboviruses) or autoimmune.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Fever, headache, altered mental status, seizures, focal deficits",
+    "Diagnosis": "MRI brain (T2/FLAIR hyperintensities), CSF PCR (HSV, VZV, etc.), autoantibody panels",
+    "Medicines": "Acyclovir (empiric for HSV), immunomodulators (steroids, IVIG, rituximab for autoimmune)",
+    "Prevention": "Vaccination (measles, mumps, rubella, Japanese encephalitis), mosquito control",
+    "Care": "ICU support, seizure control, rehabilitation, long-term neuropsychiatric follow-up"
+  },
+  "hypoxic-ischemic brain injury": {
+    "Description": "Global brain injury from cardiorespiratory arrest or severe hypotension.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Coma, seizures, myoclonus, brainstem dysfunction",
+    "Diagnosis": "CT brain (loss of gray-white differentiation), MRI (diffusion restriction in cortical/ deep gray nuclei), EEG",
+    "Medicines": "Targeted temperature management, antiepileptics",
+    "Prevention": "Early CPR, defibrillation, post-resuscitation care",
+    "Care": "Neuroprognostication after 72 hours, multidisciplinary rehabilitation, palliative care consultation"
+  },
+  "lacunar infarct": {
+    "Description": "Small deep brain infarct (<15 mm) due to occlusion of penetrating arterioles, often from lipohyalinosis.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Pure motor stroke, pure sensory stroke, ataxic hemiparesis, dysarthria-clumsy hand syndrome",
+    "Diagnosis": "MRI brain (DWI positive, located in basal ganglia, thalamus, pons, internal capsule)",
+    "Medicines": "Antiplatelets (aspirin, clopidogrel), intensive hypertension control, statins",
+    "Prevention": "Aggressive blood pressure control, diabetes management, antiplatelet therapy",
+    "Care": "Secondary stroke prevention, vascular risk factor control, rehabilitation"
+  },
+  "Metabolic encephalopathy": {
+    "Description": "Diffuse brain dysfunction due to systemic metabolic derangements (uremia, hepatic failure, electrolyte imbalances).",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Altered mental status, asterixis (liver failure), myoclonus, seizures",
+    "Diagnosis": "Clinical and lab findings (ammonia, BUN, electrolytes, glucose), EEG (triphasic waves), MRI often normal",
+    "Medicines": "Treat underlying cause (lactulose for hepatic encephalopathy, dialysis for uremia)",
+    "Prevention": "Manage chronic diseases (liver, kidney), avoid precipitating factors (infection, dehydration)",
+    "Care": "ICU monitoring, correct metabolic abnormalities, supportive care"
+  },
+  "Neurocysticercosis": {
+    "Description": "Parasitic infection of CNS by larval stage of Taenia solium (pork tapeworm).",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Seizures, headaches, focal deficits, hydrocephalus",
+    "Diagnosis": "MRI brain (cyst with scolex, enhancing lesions), serum/CSF antibody, exposure history",
+    "Medicines": "Albendazole +/- praziquantel (active lesions), corticosteroids, antiepileptics",
+    "Prevention": "Proper pork cooking, sanitation, treating intestinal tapeworm carriers",
+    "Care": "Seizure management, shunt for hydrocephalus, long-term follow-up"
+  },
+  "Normal (brain parenchyma)": {
+    "Description": "No acute intracranial abnormality, normal brain structure.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "None",
+    "Diagnosis": "Normal CT/MRI brain",
+    "Medicines": "None",
+    "Prevention": "Not applicable",
+    "Care": "No further neurological imaging needed unless clinical change"
+  },
+  "small metastatic brain lesions": {
+    "Description": "Multiple small intracranial metastases from systemic cancer.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Headache, seizures, focal deficits, cognitive changes",
+    "Diagnosis": "MRI brain with contrast (multiple enhancing lesions at gray-white junction), systemic staging",
+    "Medicines": "Corticosteroids (dexamethasone), anticonvulsants, targeted therapy/chemotherapy",
+    "Prevention": "Control of primary malignancy",
+    "Care": "Multidisciplinary neuro-oncology: consider stereotactic radiosurgery (SRS) for limited lesions, whole brain radiotherapy for numerous lesions, surgical resection for dominant symptomatic lesion"
+  },
+  "small primary brain tumor": {
+    "Description": "Localized neoplasm originating from brain cells (e.g., glioma, meningioma) of small size.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Seizures, headache, focal neurological deficits depending on location",
+    "Diagnosis": "MRI brain with contrast, MR spectroscopy, biopsy for histopathology",
+    "Medicines": "Corticosteroids for edema, antiepileptics if seizures",
+    "Prevention": "No known prevention for most primary brain tumors",
+    "Care": "Maximal safe surgical resection, adjuvant radiotherapy/temozolomide for high-grade gliomas, regular surveillance MRI"
+  },
+  "traumatic intraparenchymal hemorrhage": {
+    "Description": "Synonymous with traumatic ICH; bleeding within brain tissue from trauma.",
+    "Type": "Intracranial hemorrhage",
+    "Symptoms": "Headache, vomiting, focal deficits, declining GCS",
+    "Diagnosis": "CT brain (hyperdense lesion in trauma context)",
+    "Medicines": "Reverse coagulopathy, manage ICP, antiepileptics prophylaxis",
+    "Prevention": "Trauma prevention measures",
+    "Care": "Neurosurgical consultation, serial imaging to monitor expansion, surgical evacuation if significant mass effect or neurological deterioration"
+  },
+  
+  "cerebral amyloid angiopathy-related intracerebral hemorrhage": {
+    "Description": "Spontaneous lobar hemorrhage in elderly due to β-amyloid deposition in cerebral vessels.",
+    "Type": "Brain parenchyma",
+    "Symptoms": "Acute neurological deficits (depending on location), headache, seizures",
+    "Diagnosis": "MRI brain (gradient-echo/SWI showing microbleeds), Boston criteria, often recurrent",
+    "Medicines": "Blood pressure control (avoid excessive lowering), avoid anticoagulation/antiplatelets",
+    "Prevention": "Control hypertension, avoid antithrombotic use unless strongly indicated",
+    "Care": "Supportive care, seizure prophylaxis, neurosurgical consultation for large hematomas"
+  },
+  "cerebral contusion with hemorrhage": {
+    "Description": "Cerebral contusion associated with intraparenchymal bleeding.",
+    "Type": "Intracranial hemorrhage",
+    "Symptoms": "Similar to contusion but higher risk of mass effect and herniation",
+    "Diagnosis": "CT brain (mixed density lesion with hyperdense blood components)",
+    "Medicines": "As per contusion; manage coagulopathy if present",
+    "Prevention": "Trauma prevention",
+    "Care": "Close monitoring for expansion, ICP management, surgical evacuation if significant mass effect"
+  },
+  "chronic subdural hematoma": {
+    "Description": "Accumulation of blood products in subdural space >3 weeks old, often in elderly or anticoagulated.",
+    "Type": "Intracranial hemorrhage",
+    "Symptoms": "Headache, confusion, gait disturbance, focal deficits, may be insidious",
+    "Diagnosis": "CT brain (hypodense crescentic collection), MRI for equivocal cases",
+    "Medicines": "Manage anticoagulation reversal, atorvastatin (emerging evidence), tranexamic acid (trial)",
+    "Prevention": "Fall prevention in elderly, judicious antithrombotic use",
+    "Care": "Surgical evacuation (burr holes or craniotomy) if symptomatic, conservative with serial imaging if small/asymptomatic"
+  },
+  "coagulopathy-related intracranial hemorrhage": {
+    "Description": "Intracranial bleeding due to impaired coagulation (anticoagulants, liver disease, hemophilia).",
+    "Type": "Intracranial hemorrhage",
+    "Symptoms": "Acute neurological deficits, headache, altered consciousness",
+    "Diagnosis": "CT brain, coagulation studies (INR, aPTT, factor assays), medication history",
+    "Medicines": "Rapid reversal agents (vitamin K, PCC, idarucizumab for dabigatran, andexanet alfa for factor Xa inhibitors)",
+    "Prevention": "Appropriate anticoagulant dosing, regular monitoring, avoid dual antiplatelet/anticoagulant combinations",
+    "Care": "Neurocritical care, hematology consultation, monitor for expansion, surgical intervention if indicated"
+  },
+  "diffuse axonal injury with hemorrhagic foci": {
+    "Description": "DAI with additional punctate hemorrhages at gray-white junction/corpus callosum/brainstem.",
+    "Type": "Intracranial hemorrhage",
+    "Symptoms": "Similar to DAI but with higher acute morbidity",
+    "Diagnosis": "MRI brain (SWI highly sensitive for microbleeds)",
+    "Medicines": "As per DAI",
+    "Prevention": "As per DAI",
+    "Care": "Neurocritical care, early rehabilitation, monitor for secondary injury"
+  },
+  "early intracerebral hemorrhage (small ich)": {
+    "Description": "Acute bleeding within brain parenchyma <6 hours, volume <30 mL.",
+    "Type": "Intracranial hemorrhage",
+    "Symptoms": "Focal deficits (e.g., hemiparesis, aphasia), headache, nausea",
+    "Diagnosis": "CT brain (hyperdense lesion), CTA to rule out underlying vascular lesion",
+    "Medicines": "Blood pressure control (target SBP <140 mmHg), reverse coagulopathy, avoid steroids",
+    "Prevention": "Hypertension control, avoid excessive anticoagulation",
+    "Care": "Neurocritical care monitoring, serial imaging to assess expansion, consider minimally invasive surgery"
+  },
+  "hemorrhagic transformation of ischemic stroke": {
+    "Description": "Secondary bleeding within an ischemic infarct, often after reperfusion therapy.",
+    "Type": "Intracranial hemorrhage",
+    "Symptoms": "Neurological worsening after initial stabilization",
+    "Diagnosis": "CT brain (new hyperdensity within infarcted area)",
+    "Medicines": "Reverse coagulopathy if present, control blood pressure, avoid antiplatelets temporarily",
+    "Prevention": "Careful patient selection for thrombolysis/thrombectomy, control hypertension",
+    "Care": "Close monitoring, neurosurgical consultation if large hematoma with mass effect"
+  },
+  "normal (intracranial hemorrhage)": {
+    "Description": "Absence of intracranial bleeding.",
+    "Type": "Intracranial hemorrhage",
+    "Symptoms": "None",
+    "Diagnosis": "Normal non-contrast CT brain",
+    "Medicines": "None",
+    "Prevention": "Not applicable",
+    "Care": "No specific intervention"
+  },
+   "subacute subdural hematoma": {
+    "Description": "Subdural collection of blood products 1-3 weeks old, in transition from acute to chronic.",
+    "Type": "Intracranial hemorrhage",
+    "Symptoms": "Fluctuating neurological symptoms, headache, confusion",
+    "Diagnosis": "CT brain (isodense or mixed density crescentic collection), MRI for better delineation",
+    "Medicines": "Manage anticoagulation reversal if applicable",
+    "Prevention": "As per chronic SDH",
+    "Care": "Similar to chronic SDH; often surgical evacuation if symptomatic"
+  },
+  "traumatic intracerebral hemorrhage (tich)": {
+    "Description": "Parenchymal brain bleeding due to direct trauma, often associated with contusions.",
+    "Type": "Intracranial hemorrhage",
+    "Symptoms": "Headache, vomiting, focal deficits, declining GCS",
+    "Diagnosis": "CT brain (hyperdense lesion in trauma context)",
+    "Medicines": "Reverse coagulopathy, manage ICP, antiepileptics prophylaxis",
+    "Prevention": "Trauma prevention measures",
+    "Care": "Neurosurgical consultation, serial imaging to monitor expansion, surgical evacuation if significant mass effect or neurological deterioration"
+  },
+   "adenocarcinoma in situ (ais)": {
+    "Description": "Pre-invasive non-small cell lung cancer limited to alveolar structures without stromal, vascular, or pleural invasion.",
+    "Type": "Lung nodule",
+    "Symptoms": "Typically asymptomatic, incidental finding on imaging",
+    "Diagnosis": "CT chest, PET-CT, biopsy via VATS wedge resection (definitive)",
+    "Medicines": "None specifically; surgical resection is curative",
+    "Prevention": "Smoking cessation, radon exposure reduction, lung cancer screening in high-risk individuals",
+    "Care": "Surgical resection (segmentectomy/wedge resection), 5-year follow-up with CT surveillance, no adjuvant therapy needed"
+  },
+  "benign granuloma (healed tb, fungal)": {
+    "Description": "Chronic inflammatory nodule composed of epithelioid histiocytes, often from prior infection.",
+    "Type": "Lung nodule",
+    "Symptoms": "Asymptomatic",
+    "Diagnosis": "CT chest (calcified, stable small nodule), serial imaging showing stability",
+    "Medicines": "None unless active infection",
+    "Prevention": "Avoid endemic fungal areas, BCG vaccination for TB",
+    "Care": "Annual CT follow-up for 2 years to confirm stability, no intervention needed"
+  },
+  "ground-glass nodule (ggn)": {
+    "Description": "Focal hazy lung opacity not obscuring underlying structures, may represent pre-invasive/invasive adenocarcinoma or inflammation.",
+    "Type": "Lung nodule",
+    "Symptoms": "Asymptomatic usually",
+    "Diagnosis": "CT chest (persistent GGN), PET-CT often not helpful, biopsy via CT-guided or surgical",
+    "Medicines": "None for neoplastic GGN; antibiotics if inflammatory",
+    "Prevention": "Smoking cessation",
+    "Care": "Surveillance per Fleischner Society guidelines: persistent GGN >6 mm requires annual CT for 5 years, growth or solid component increase may warrant resection"
+  },
+  "minimally invasive adenocarcinoma (mia)": {
+    "Description": "Solitary adenocarcinoma ≤3 cm with predominantly lepidic growth and ≤5 mm invasion.",
+    "Type": "Lung nodule",
+    "Symptoms": "Asymptomatic, incidental finding",
+    "Diagnosis": "CT chest (part-solid nodule), definitive diagnosis after surgical resection",
+    "Medicines": "None curative; surgery is treatment",
+    "Prevention": "Smoking cessation",
+    "Care": "Surgical resection (wedge/segmentectomy) with lymph node sampling, 5-year survival near 100%, no adjuvant chemo"
+  },
+  "normal (lung nodules – small lesions)": {
+    "Description": "Incidental small lung nodules without malignant features, likely benign (granulomas, intrapulmonary lymph nodes).",
+    "Type": "Lung nodule",
+    "Symptoms": "None",
+    "Diagnosis": "CT chest showing non-calcified nodule <6 mm in low-risk patient",
+    "Medicines": "None",
+    "Prevention": "Not applicable",
+    "Care": "Follow Fleischner Society guidelines: low-risk patients with nodule <6 mm require no follow-up; 6-8 mm: CT at 6-12 months; >8 mm: CT at 3, 9, 24 months"
+  },
+  "part-solid lung nodule": {
+    "Description": "Lung nodule with both ground-glass and solid components, suspicious for invasive adenocarcinoma.",
+    "Type": "Lung nodule",
+    "Symptoms": "Asymptomatic usually",
+    "Diagnosis": "CT chest, PET-CT (solid component may be FDG-avid), biopsy",
+    "Medicines": "None for curative intent; surgery primary",
+    "Prevention": "Smoking cessation",
+    "Care": "Management based on size and growth: >8 mm solid component suggests invasive cancer; resection with lobectomy preferred, adjuvant therapy if invasive"
+  },
+  "pulmonary metastatic nodules": {
+    "Description": "Multiple lung nodules from hematogenous spread of extrapulmonary primary cancer.",
+    "Type": "Lung nodule",
+    "Symptoms": "Cough, dyspnea, may be asymptomatic",
+    "Diagnosis": "CT chest (multiple round nodules of varying sizes, often peripheral), biopsy to confirm origin",
+    "Medicines": "Chemotherapy/immunotherapy/targeted therapy based on primary cancer",
+    "Prevention": "Early detection and treatment of primary malignancy",
+    "Care": "Multidisciplinary oncology care, consider metastasectomy if oligometastatic, stereotactic body radiotherapy (SBRT)"
+  },
+  "pulmonary tuberculoma": {
+    "Description": "Granulomatous lung nodule due to Mycobacterium tuberculosis, representing healed or active infection.",
+    "Type": "Lung nodule",
+    "Symptoms": "Often asymptomatic, may have cough, night sweats if active",
+    "Diagnosis": "CT chest (calcified or non-calcified nodule), interferon-gamma release assay, sputum culture",
+    "Medicines": "Active TB: multidrug therapy (isoniazid, rifampin, pyrazinamide, ethambutol); latent TB: isoniazid prophylaxis",
+    "Prevention": "BCG vaccination, treat latent TB infection",
+    "Care": "Confirm diagnosis with biopsy if uncertain, treat if active, follow-up imaging to ensure stability"
+  },
+   "solitary pulmonary nodule (spn)": {
+    "Description": "Single, well-defined lung nodule ≤3 cm surrounded by lung parenchyma.",
+    "Type": "Lung nodule",
+    "Symptoms": "Usually asymptomatic",
+    "Diagnosis": "CT chest, PET-CT for nodules >8 mm, biopsy (CT-guided or bronchoscopic)",
+    "Medicines": "None until diagnosis confirmed",
+    "Prevention": "Smoking cessation",
+    "Care": "Risk stratification using Brock/Pancost models; management based on probability of malignancy: low risk (<5%): surveillance CT; intermediate (5-65%): PET/biopsy; high (>65%): surgical resection"
+  },
+  "subsolid lung nodule": {
+    "Description": "Umbrella term for both pure ground-glass and part-solid nodules.",
+    "Type": "Lung nodule",
+    "Symptoms": "Asymptomatic",
+    "Diagnosis": "CT chest",
+    "Medicines": "None for surveillance phase",
+    "Prevention": "Smoking cessation",
+    "Care": "Follow-up per Fleischner Society guidelines based on size and patient risk; persistent subsolid nodules may require long-term surveillance or resection if growth/solid component develops"
+  }
+
+}
